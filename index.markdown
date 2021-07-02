@@ -8,6 +8,7 @@ Check your solution by clicking on the Check button.
 You will be told if any of the blocks are in the wrong order or if you need to remove one or more blocks. </div>
 
 
+
 <div id="Var-sortableTrash" class="sortable-code"></div> 
 <div id="Var-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
