@@ -1,6 +1,3 @@
-
-title: Parson's Problems Java Variables and Expression
----
 # Parsons Practice
 
 ## Variable and Expression Review
