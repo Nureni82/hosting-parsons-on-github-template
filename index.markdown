@@ -5,7 +5,8 @@
 The following has the correct code to ‘swap’ the values in x and y (so that x ends up with y’s initial value and y ends up with x’s initial value), but the code is mixed up. 
 Drag the needed blocks from the top into the correct order at the bottom. 
 Check your solution by clicking on the Check button. 
-You will be told if any of the blocks are in the wrong order or if you need to remove one or more blocks. </div>
+You will be told if any of the blocks are in the wrong order or if you need to remove one or more blocks. 
+You will only be allowed to make 3 incorrect attempts </div>
 
 
 
@@ -29,7 +30,7 @@ You will be told if any of the blocks are in the wrong order or if you need to r
     "sortableId": "Var-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
+    "exec_limit": 3,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
