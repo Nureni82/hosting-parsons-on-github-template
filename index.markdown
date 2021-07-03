@@ -11,45 +11,45 @@ You will be told if any of the blocks are in the wrong order. </div>
 
 
 
-<div id="Var-sortableTrash" class="sortable-code"></div> 
-<div id="Var-sortable" class="sortable-code"></div> 
+<div id="1-sortableTrash" class="sortable-code"></div> 
+<div id="1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p> 
-    <input id="Var-feedbackLink" value="Check" type="button" /> 
-    <input id="Var-newInstanceLink" value="Reset Problem" type="button" /> 
+    <input id="1-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="1-newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "int x = 3;\n" +
-    "int y = 5;\n" +
-    "int temp = 0;\n" +
-    "temp = x;\n" +
-    "x = y;\n" +
-    "y = temp;\n" +
-    "x=y; #distractor";
+  var initial = "public class CodeTracing{\n" +
+    "    public static void main(String){\n" +
+    "        int x = 2;\n" +
+    "        int y = 3;\n" +
+    "        int temp = 0;\n" +
+    "        temp = x;\n" +
+    "        x = y;\n" +
+    "        y = temp;\n" +
+    "    }\n" +
+    "}\n" +
+    "y = x; #distractor";
   var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "Var-sortable",
+    "sortableId": "1-sortable",
     "max_wrong_lines": 10,
     "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 3,
+    "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "trashId": "Var-sortableTrash"
+    "trashId": "1-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
-  $("#Var-newInstanceLink").click(function(event){ 
+  $("#1-newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#Var-feedbackLink").click(function(event){ 
+  $("#1-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
 })(); 
 </script>
-
-#### Click Next for problem 2 
-[Next](index2.markdown)
-
