@@ -21,7 +21,7 @@ You will be told if any of the blocks are in the wrong order. </div>
 <script type="text/javascript"> 
 (function(){
   var initial = "public class CodeTracing{\n" +
-    "    public static void main(String){\n" +
+    "    public static void main(String[] args){\n" +
     "        int x = 2;\n" +
     "        int y = 3;\n" +
     "        int temp = 0;\n" +
