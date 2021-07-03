@@ -2,11 +2,10 @@
 
 ## Directions: 
 <div style="text-align: justify"> 
-The following has the correct code to ‘swap’ the values in x and y (so that x ends up with y’s initial value and y ends up with x’s initial value), but the code is mixed up. 
+The following has the correct code to ‘swap’ the values in x and y (so that x ends up with y’s initial value and y ends up with x’s initial value), but the code is mixed up and contains one extra block which is not needed in a correct solution. 
 Drag the needed blocks from the top into the correct order at the bottom. 
 Check your solution by clicking on the Check button. 
-You will be told if any of the blocks are in the wrong order or if you need to remove one or more blocks. 
-You will only be allowed to make 3 incorrect attempts </div>
+You will be told if any of the blocks are in the wrong order or if you need to remove one or more blocks. </div>
 
 
 
