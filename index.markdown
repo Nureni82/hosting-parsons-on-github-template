@@ -50,5 +50,3 @@ You will be told if any of the blocks are in the wrong order. </div>
 })(); 
 </script>
 
-### Example Next Link
-[Problem 2](./hosting-parsons-on-github-template/blob/master/index2.markdown)
