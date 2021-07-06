@@ -49,7 +49,7 @@ You will be told if any of the blocks are in the wrong order. </div>
   }); 
   $("#1-feedbackLink").click(function(event){ 
       event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
+      parsonsPuzzle.check(); 
   }); 
 })(); 
 </script>
