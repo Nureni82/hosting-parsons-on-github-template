@@ -10,62 +10,6 @@ title: Rearranging only part of a program
 
 <div style="text-align: justify"> 
     <p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
-    <p>What's new for this exercise is that you will only fix PART of the program - namely, the lines marked "FIX THIS PART".</p>
-    <p>Normally you'll be given something like this:</p>
-    <hr/>   
-    <p>&nbsp;</p>
-    <pre>
-class RearrangingPartsOfTheProgram {
-  public static void main(String[] args) {
-    // FIX THIS PART!!!
-  }
-}
-</pre>
-    <p>Task: You must rearrange the given lines of the program so that the finished program compiles, runs, and produces the following output:</p>
-<pre>
-Hello
- 
-world!
-</pre>
-    <p>You are given the following lines to (re)arrange:</p>
-<pre>
-    System.out.println("Hello");    
-    System.out.println(" ");
-    System.out.println("world!");
-</pre>
-    <p>&nbsp;</p>
-    <hr/>
-    <p>You will be expected to produce a program that looks like this:</p>
-    <pre>
-class RearrangingPartsOfTheProgram {
-  public static void main(String[] args) {
-    System.out.println("Hello");    
-    System.out.println(" ");
-    System.out.println("world!");
-  }
-}
-</pre>
-</div>
-
-### Try it yourself:
-
-<div>
-<p>Given the following program 'outline':</p>
-    <hr/>    
-    <pre>
-class RearrangingPartsOfTheProgram {
-  public static void main(String[] args) {
-    // FIX THIS PART!!!
-  }
-}
-</pre>
-    <p>Task: You must rearrange the given lines of the program so that the finished program compiles, runs, and produces the following output:</p>
-<pre>
-Welcome 
-to 
-BIT 
-115
-</pre>
 </div>
 
 <div id="sortableTrash" class="sortable-code"></div> 
