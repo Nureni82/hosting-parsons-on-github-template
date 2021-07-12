@@ -21,10 +21,7 @@ title: Rearranging only part of a program
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "    System.out.println(\"Welcome \");    \n" +
-    "    System.out.println(\"to \");\n" +
-    "    System.out.println(\"BIT \");\n" +
-    "    System.out.println(\"115\");";
+  var initial = "    System.out.println(\"Welcome \");    \n";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
