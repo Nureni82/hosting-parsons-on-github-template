@@ -1,17 +1,14 @@
 ---
-title: Rearranging only part of a program
+title: Introduction To Parson's Problems
 ---
 
-## Purpose:
+#### The goal is for you to get used to using the Parson's Problem tool itself.
 
- <p>The goal is for you to get used to using the Parson's Problem tool itself in a way that gets around the problem of having to rearrange lots and lots of 'boilerplate' lines</p>
-
-<p>This is because Java has a lot of lines that are important for Java, but aren't so important for us humans studying today's topic</p>
-
-## Directions :
+## Directions:
 
 <div style="text-align: justify"> 
-    <p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
+<p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
+<p>The code should print out the message "Welcome to BIT 115", inside of a correctly formed Java program.  It doesn't have to do anything other than that</p>
 </div>
 
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -23,7 +20,11 @@ title: Rearranging only part of a program
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "    System.out.println(\"Welcome \");    \n";
+  var initial = "class Main {\n" +
+    "  public static void main(String[] args) {\n" +
+    "    System.out.println(&quot;Welcome To BIT 115&quot;);\n" +
+    "  }\n" +
+    "}";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
