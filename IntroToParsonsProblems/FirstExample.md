@@ -2,10 +2,11 @@
 title: Introduction To Parson's Problems
 ---
 
+#### The goal is for you to get used to using the Parson's Problem tool itself.
+
 ## Directions:
 
 <div style="text-align: justify"> 
-<p>The goal is for you to get used to using the Parson's Problem tool itself.</p>
 <p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
 <p>The code should print out the message "Welcome to BIT 115", inside of a correctly formed Java program.  It doesn't have to do anything other than that</p>
 </div>
