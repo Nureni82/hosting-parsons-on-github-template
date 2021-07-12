@@ -2,7 +2,7 @@
 title: Rearranging Part Of A Program
 ---
 
-## Purpose:
+## Purpose :
 
  <p>The goal is for you to get used to using the Parson's Problem tool itself in a way that gets around the problem of having to rearrange lots and lots of 'boilerplate' lines</p>
 
@@ -84,26 +84,26 @@ BIT
   "System.out.println(\"To \");\n" +
   "System.out.println(\"BIT \");\n" +
   "System.out.println(\"115\");\n";
-  
-  var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "sortable",
-    "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
-    "can_indent": true,
-    "x_indent": 50,
-    "lang": "en",
-    "trashId": "sortableTrash"
-  });
-  parsonsPuzzle.init(initial);
-  parsonsPuzzle.shuffleLines();
-  $("#newInstanceLink").click(function(event){ 
+
+var parsonsPuzzle = new ParsonsWidget({
+"sortableId": "sortable",
+"max_wrong_lines": 10,
+"grader": ParsonsWidget.\_graders.LineBasedGrader,
+"exec_limit": 2500,
+"can_indent": true,
+"x_indent": 50,
+"lang": "en",
+"trashId": "sortableTrash"
+});
+parsonsPuzzle.init(initial);
+parsonsPuzzle.shuffleLines();
+$("#newInstanceLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.shuffleLines(); 
   }); 
-  $("#feedbackLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
-  }); 
-})(); 
+  $("#feedbackLink").click(function(event){
+event.preventDefault();
+parsonsPuzzle.getFeedback();
+});
+})();
 </script>
