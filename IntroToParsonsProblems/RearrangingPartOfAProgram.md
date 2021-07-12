@@ -13,7 +13,7 @@ title: Rearranging only part of a program
     <p>What's new for this exercise is that you will only fix PART of the program - namely, the lines marked "FIX THIS PART".</p>
     <p>Normally you'll be given something like this:</p>
     <hr/>   
-    <p> </p>
+    <p>&nbsp;</p>
     <pre>
 class RearrangingPartsOfTheProgram {
   public static void main(String[] args) {
@@ -33,7 +33,7 @@ world!
     System.out.println(" ");
     System.out.println("world!");
 </pre>
-    <p> </p>
+    <p>&nbsp;</p>
     <hr/>
     <p>You will be expected to produce a program that looks like this:</p>
     <pre>
