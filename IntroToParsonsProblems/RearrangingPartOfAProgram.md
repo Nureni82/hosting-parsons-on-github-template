@@ -2,7 +2,9 @@
 title: Rearranging only part of a program
 ---
 
-#### The goal is for you to get used to using the Parson's Problem tool itself in a way that gets around the problem of having to rearrange lots and lots of 'boilerplate' lines
+## Purpose:
+
+ <p>The goal is for you to get used to using the Parson's Problem tool itself in a way that gets around the problem of having to rearrange lots and lots of 'boilerplate' lines</p>
 
 <p>This is because Java has a lot of lines that are important for Java, but aren't so important for us humans studying today's topic</p>
 
