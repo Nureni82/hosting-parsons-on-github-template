@@ -48,6 +48,11 @@ class RearrangingPartsOfTheProgram {
 }
 </pre>
 
+</div>
+
+### Try it yourself:
+
+<div>
 <p>Given the following program 'outline':</p>
     <hr/>    
     <pre>
