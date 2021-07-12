@@ -8,11 +8,10 @@ title: Introduction To Parson's Problems
 
 <p>This is because Java has a lot of lines that are important for Java, but aren't so important for us humans studying today's topic</p>
 
-## Directions:
+## Directions :
 
 <div style="text-align: justify"> 
-<p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
-<p>The code should print out the message "Welcome to BIT 115", inside of a correctly formed Java program.  It doesn't have to do anything other than that</p>
+    <p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
 </div>
 
 <div id="sortableTrash" class="sortable-code"></div> 
