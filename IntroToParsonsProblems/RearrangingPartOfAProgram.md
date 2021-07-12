@@ -24,6 +24,29 @@ class RearrangingPartsOfTheProgram {
 }
 </pre>
 
+  <p>Task: You must rearrange the given lines of the program so that the finished program compiles, runs, and produces the following output:</p>
+<pre>
+Hello
+ 
+world!
+</pre>
+    <p>You are given the following lines to (re)arrange:</p>
+<pre>
+    System.out.println(" ");
+    System.out.println("world!");
+    System.out.println("Hello");    
+</pre>
+    <hr/>
+    <p>You will be expected to produce a program that looks like this:</p>
+    <pre>
+class RearrangingPartsOfTheProgram {
+  public static void main(String[] args) {
+    System.out.println("Hello");    
+    System.out.println(" ");
+    System.out.println("world!");
+  }
+}
+</pre>
 </div>
 
 <div id="sortableTrash" class="sortable-code"></div> 
