@@ -12,6 +12,18 @@ title: Introduction To Parson's Problems
 
 <div style="text-align: justify"> 
     <p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
+
+   <p>What's new for this exercise is that you will only fix PART of the program - namely, the lines marked "FIX THIS PART".</p>
+    <p>Normally you'll be given something like this:</p>
+    <hr/>   
+    <pre>
+class RearrangingPartsOfTheProgram {
+  public static void main(String[] args) {
+    // FIX THIS PART!!!
+  }
+}
+</pre>
+
 </div>
 
 <div id="sortableTrash" class="sortable-code"></div> 
