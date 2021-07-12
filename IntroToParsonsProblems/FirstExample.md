@@ -1,14 +1,14 @@
 ---
-title: Code Tracing Review
+title: Introduction To Parson's Problems
 ---
 
 ## Directions:
 
 <div style="text-align: justify"> 
-The following has the correct code to ‘swap’ the values in x and y (so that x ends up with y’s initial value and y ends up with x’s initial value), but the code is mixed up and contains one extra block which is not needed in a correct solution. 
-Drag the needed blocks from the top into the correct order at the bottom. 
-Check your solution by clicking on the Get Feedback button. Your can click Reset Problem button to reshuffle the code blocks. 
-You will be told if any of the blocks are in the wrong order. </div>
+<p>The goal is for you to get used to using the Parson's Problem tool itself.</p>
+<p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
+<p>The code should print out the message "Welcome to BIT 115", inside of a correctly formed Java program.  It doesn't have to do anything other than that</p>
+</div>
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
