@@ -6,7 +6,7 @@ title: Rearranging only part of a program
 
 <p>This is because Java has a lot of lines that are important for Java, but aren't so important for us humans studying today's topic</p>
 
-## Directions:
+## Directions :
 
 <div style="text-align: justify"> 
     <p>Construct a working program by dragging & dropping lines from the left to the right. You'll need to change the order of the lines and you'll need to adjust the indentation correctly.</p>
