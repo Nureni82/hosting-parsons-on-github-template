@@ -80,11 +80,11 @@ BIT
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "class Main {\n" +
-    "  public static void main(String[] args) {\n" +
-    "    System.out.println(&quot;Welcome To BIT 115&quot;);\n" +
-    "  }\n" +
-    "}";
+  var initial = "System.out.println(\"Welcome \");\n" +
+  "System.out.println(\"To \");\n" +
+  "System.out.println(\"BIT \");\n" +
+  "System.out.println(\"115\");\n";
+  
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
