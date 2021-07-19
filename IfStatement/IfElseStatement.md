@@ -4,7 +4,7 @@ title: Printing Even or Odd Number
 
 ## Purpose:
 
- <p>The purpose of this exercise is to practice the program flow and the sequence of statement executions using the conditional statements.</p>
+ <p>The purpose of this exercise is to practice the program flow and the sequence of statement executions using the conditional statements. testing</p>
 
 
 ## Directions :
